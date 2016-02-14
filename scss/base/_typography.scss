@@ -1,0 +1,91 @@
+body {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-feature-settings: "kern", "liga", "pnum";
+  font-size: $base-font-size;
+  font-weight: $font-weight-light;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: $base-font-size;
+  line-height: $heading-line-height;
+  margin: 0 0 $small-spacing;
+  &.orange {
+    color: $orange;
+  }
+}
+
+h1 {
+  font-size: $font-size-x-large;
+  font-weight: $font-weight-black;
+}
+
+h2 {
+  font-size: $font-size-large;
+  font-weight: $font-weight-black;
+  margin-botttom: 0.5em;
+}
+
+h3 {
+  font-size: $font-size-medium;
+  font-weight: $font-weight-light;
+}
+
+h4, h5, h6 {
+  font-weight: $font-weight-light;
+}
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  color: $blue;
+  text-decoration: underline;
+  transition: color $base-duration $base-timing;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: shade($blue, 25%);
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  clear: both;
+  margin: $base-spacing 0;
+
+}
+
+// @todo tweak line height
+.font-size-regular {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+.font-size-medium {
+  font-size: $font-size-medium;
+  line-height: $base-line-height;
+}
+.font-size-large {
+  font-size: $font-size-large;
+  line-height: $heading-line-height;
+}
+.font-size-x-large {
+  font-size: $font-size-x-large;
+  line-height: $heading-line-height;
+}
+
+.font-weight-light { font-weight: $font-weight-light; }
+.font-weight-medium { font-weight: $font-weight-medium; }
+.font-weight-black { font-weight: $font-weight-black; }

@@ -1,0 +1,62 @@
+.footer {
+  $base-spacing: 1.5em !default;
+  $action-color: #477DCA !default;
+  $medium-screen: em(640) !default;
+  $large-screen: em(860) !default;
+  $footer-background: desaturate(darken($action-color, 20%), 30%);
+  $footer-color: white;
+  $footer-link-color: #FFF;
+  $footer-disclaimer-color: #FFF;
+
+
+  background: #353f47;
+  color: #FFF;
+  padding: 1em 0;
+  text-transform: uppercase;
+  @include background-image(linear-gradient(to top, #353f47, #3e474f));
+
+  .footer-logo {
+    margin-bottom: 2em;
+    text-align: center;
+
+    img {
+      height: 3em;
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    @include media(800px) {
+      display: inline-block;
+      text-align: left;
+    }
+  }
+
+  ul {
+    padding: 0;
+  }
+  li {
+    display: block;
+    line-height: 1.5em;
+    list-style: none;
+    text-align: center;
+    padding-right: 1.5em;
+    @include media(800px) {
+      display: inline-block;
+      text-align: left;
+    }
+    a {
+      color: $footer-link-color;
+      display: block;
+      padding: .5em 0;
+      text-decoration: none;
+      width: 100%;
+      &:focus,
+      &:hover {
+        color: transparentize($footer-color, 0);
+      }
+    }
+  }
+
+
+}
