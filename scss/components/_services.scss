@@ -1,0 +1,43 @@
+#services-list {
+  .col {
+    float: left;
+    list-style: none;
+    width: 32.26%;
+    margin: 1% 0 1% 1.6%;
+    //&:first-of-type {
+    //  margin-left: 0;
+    //}
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+    &:nth-of-type(4n) {
+      margin-left: 0;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  &:after {
+    clear: both;
+    content: "";
+    display: block;
+
+  }
+}
+
+#product-list {
+  .logo {
+    display: block;
+    float: left;
+    margin-right: 1em;
+    text-align: center;
+    width: 32%;
+    &:first-of-type {
+      text-align: left;
+    }
+    &:last-of-type {
+      text-align: right;
+    }
+  }
+}

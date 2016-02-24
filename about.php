@@ -17,30 +17,39 @@ require_once 'inc/header.php';
       <h2>Staff</h2>
       <ul class="staff-list">
         <li>
-          <p class="name">Mark Hirchak, Owner</p></li>
+          <img src="images/blank-portrait.jpg" width="200" alt="Mark">
+          <p class="name"><span class="name strong">Mark Hirchak</span><br/> Owner</p></li>
         <li>
-          <p class="name">Kristi Foust, Office Staff</p>
+          <img src="images/blank-portrait.jpg" width="200" alt="Kristi">
+          <p class="name"><span class="name strong">Kristi Foust</span><br/> Office Staff</p>
         </li>
         <li>
-          <p class="name">Carl Foust, Office Staff</p>
+          <img src="images/blank-portrait.jpg" width="200" alt="Carl">
+          <p class="name"><span class="name strong">Carl Foust</span><br/> Office Staff</p>
         </li>
         <li>
-          <p class="name">Chris Orrick, Field Supervisor</p>
+          <img src="images/blank-portrait.jpg" width="200" alt="Chris">
+          <p class="name"><span class="name strong">Chris Orrick</span><br/> Field Supervisor</p>
         </li>
         <li>
-          <p class="name">Mark Alcala, Service Technician</p>
+          <img src="images/blank-portrait.jpg" width="200" alt="Mark">
+          <p class="name"><span class="name strong">Mark Alcala</span><br/> Service Technician</p>
         </li>
         <li>
-          <p class="name">Ross Oliver, Service Technician</p>
+          <img src="images/blank-portrait.jpg" width="200" alt="Ross">
+          <p class="name"><span class="name strong">Ross Oliver</span><br/> Service Technician</p>
         </li>
         <li>
-          <p class="name">Mike Mordus, Service Technician</p>
+          <img src="images/blank-portrait.jpg" width="200" alt="Mike">
+          <p class="name"><span class="name strong">Mike Mordus</span><br/> Service Technician</p>
         </li>
         <li>
-          <p class="name">Kevin Kowalski, Service Technician</p>
+          <img src="images/blank-portrait.jpg" width="200" alt="Kevin">
+          <p class="name"><span class="name strong">Kevin Kowalski</span><br/> Service Technician</p>
         </li>
         <li>
-          <p class="name">Dan Kowalski, Service Technician</p>
+          <img src="images/blank-portrait.jpg" width="200" alt="Dan">
+          <p class="name"><span class="name strong">Dan Kowalski</span><br/> Service Technician</p>
         </li>
       </ul>
     </div>

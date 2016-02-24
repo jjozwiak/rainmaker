@@ -2,7 +2,7 @@
 require_once 'inc/header.php';
 ?>
 
-  <div class="hero">
+  <div id="customers-hero" class="hero">
     <div class="hero-inner">
       <div class="hero-copy">
         <h1>Customers</h1>

@@ -93,8 +93,13 @@
   }
 }
 
+
+//@todo find different stock hero images for each section
 #services-hero,
-#about-hero {
+#about-hero,
+#customers-hero,
+#estimates-hero,
+#contact-hero {
   &.hero {
     background-image: url('/images/hero-image-gray.jpg');
   }

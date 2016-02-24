@@ -1,7 +1,7 @@
 #{$all-buttons},
 .btn {
   appearance: none;
-  background-color: $action-color;
+  background-color: $blue;
   border: 0;
   border-radius: $base-border-radius;
   color: #fff;
@@ -22,7 +22,7 @@
 
   &:hover,
   &:focus {
-    background-color: shade($action-color, 20%);
+    background-color: shade($blue, 20%);
     color: #fff;
   }
 
