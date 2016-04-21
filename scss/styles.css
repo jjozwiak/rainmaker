@@ -320,16 +320,39 @@ body {
     width: 33%; }
 
 #services-list .col {
-  float: left;
   list-style: none;
-  width: 32.26%;
-  margin: 1% 0 1% 1.6%; }
-  #services-list .col:first-of-type {
-    margin-left: 0; }
-  #services-list .col:nth-of-type(4n) {
-    margin-left: 0; }
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  padding: 0 1.5em; }
   #services-list .col p {
     font-size: 14px; }
+  @media (min-width: 700px) and (max-width: 1023px) {
+    #services-list .col {
+      float: left;
+      width: 49.2%;
+      margin: 1% 0 1% 1.6%;
+      min-height: 420px;
+      text-align: left; }
+      #services-list .col:first-of-type {
+        margin-left: 0;
+        padding-left: 0; }
+      #services-list .col:nth-of-type(3n) {
+        margin-left: 0;
+        padding-left: 0; } }
+  @media (min-width: 1024px) {
+    #services-list .col {
+      float: left;
+      width: 32.26%;
+      margin: 1% 0 1% 1.6%;
+      text-align: left; }
+      #services-list .col:first-of-type {
+        margin-left: 0;
+        padding-left: 0; }
+      #services-list .col:nth-of-type(4n) {
+        margin-left: 0;
+        padding-left: 0; } }
 #services-list:after {
   clear: both;
   content: "";
@@ -572,7 +595,7 @@ header.navigation {
     margin-left: auto;
     margin-right: auto;
     margin: auto;
-    padding: 3.5em 0;
+    padding: 3.5em 1em;
     text-align: left; }
     .hero .hero-inner::after {
       clear: both;
@@ -582,6 +605,9 @@ header.navigation {
       clear: both;
       content: "";
       display: table; }
+    @media (min-width: 1200px) {
+      .hero .hero-inner {
+        padding: 3.5em 0; } }
     .hero .hero-inner .hero-copy {
       text-align: left; }
       .hero .hero-inner .hero-copy h1 {

@@ -13,7 +13,7 @@ require_once 'inc/header.php';
   <section id="sub-section">
     <div class="wrap">
       <h3>Office Hours:</h3>
-      <p>Monday-Friday: 8:00-5:00<br/>
+      <p>Monday-Friday: 8:00-4:00<br/>
       Closed Saturday & Sunday</p>
       <h3>Address:</h3>
       <p>9928 Express Drive<br/>

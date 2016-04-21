@@ -26,8 +26,12 @@
     @include outer-container;
     @include clearfix;
     margin: auto;
-    padding: 3.5em 0;
+    padding: 3.5em 1em;
     text-align: left;
+
+    @media (min-width: $max-width) {
+      padding: 3.5em 0;
+    }
 
     .hero-copy {
       text-align: left;

@@ -6,7 +6,7 @@ require_once 'inc/header.php';
     <div class="hero-inner">
       <div class="hero-copy">
         <h1>Services</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi autem iste laboriosam, magni reiciendis soluta voluptate! Aperiam excepturi expedita facere fuga illo ipsa labore nesciunt, odit officiis quam reiciendis.</p>
+        <p>We have 5 full time service crews to accommodate all your irrigation needs. Our vans are fully stocked with the most common parts needed to repair your system. Are you getting a pool installed? Fence? new landscape? We can coordinate with your other contractors to seamlessly get you back to watering with minimal disruption to your irrigation system.</p>
       </div>
     </div>
   </div>
@@ -36,7 +36,7 @@ require_once 'inc/header.php';
         <div class="col">
           <h2>Winterization</h2>
           <img src="images/winterization.jpg" alt="snowy porch">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aliquam aperiam aspernatur beatae distinctio eligendi error incidunt laboriosam libero mollitia, nulla officiis quia suscipit vel. Amet consequatur consequuntur saepe.</p>
+          <p>At the completion of the season our service technicians will run compressed air through the lines, eliminating the risk of damage to the irrigation system from freezing water.</p>
         </div>
       </div>
       <h2>Products</h2>
@@ -45,7 +45,7 @@ require_once 'inc/header.php';
         <a href="http://www.hunterindustries.com/" target="_blank" class="logo">
           <img src="images/logo_hunter.jpg" alt="Hunter Logo">
         </a>
-        <a href="http://www.johndeerelandscapes.com" target="_blank" class="logo">
+        <a href="https://www.siteone.com/" target="_blank" class="logo">
           <img src="images/logo_john_deere.jpg" alt="John Deere Logo">
         </a>
         <a href="http://www.rainbird.com/" target="_blank" class="logo">
